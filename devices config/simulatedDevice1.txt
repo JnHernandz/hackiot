@@ -1,0 +1,14 @@
+hostname=fgIoTHubTest.azure-devices.net
+connectionString=HostName=fgIoTHubTest.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=y+1Mdu3j19Km5XVzyXvXJULsEFXHO4+9/7wDwgRdsc4=
+eventHubCompatibleName=iothub-ehub-fgiothubte-126244-cfe4ceb722
+eventHubCompatibleEndpoint=sb://ihsuprodbyres031dednamespace.servicebus.windows.net/
+deviceID=myFirstJavaDevice
+devicekey=yq1D5DIHkCf4wQCiJheWzQ==
+
+
+
+
+
+
+
+HostName=fgIoTHubTest.azure-devices.net;DeviceId=myFirstJavaDevice;SharedAccessKey=yq1D5DIHkCf4wQCiJheWzQ==

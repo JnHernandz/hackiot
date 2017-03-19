@@ -109,7 +109,7 @@
                 $scope.temperatures = [];
             
                 $scope.send = function(value) {
-                    $http.post('/api/command/', {command: value.data});    
+                    $http.post('/api/command/', {command: value});    
                 };
             
                 $http.get('/api/alerts').then(function(data) {

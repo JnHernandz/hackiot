@@ -74,7 +74,7 @@ var completedCallback = function(err, res) {
 };
 
 app.post('/api/command', function(req, res) {
-    console.log('command received: ' + req.body.command);
+    console.log('command received: ' + JSON.stringify(req.body));
 
     var command = "TurnFanOff";
     if (req.body.command === 1) {

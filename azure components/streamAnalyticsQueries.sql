@@ -1,7 +1,8 @@
 SELECT
     DeviceId,
     EventTime,
-    MTemperature as TemperatureReading
+    MTemperature as TemperatureReading,
+    Humidity as HumidityReading
 INTO
     TemperatureTableStorage
 FROM
@@ -15,13 +16,14 @@ WHERE
 SELECT
     DeviceId,
     EventTime,
-    MTemperature as TemperatureReading
+    MTemperature as TemperatureReading,
+    Humidity as HumidityReading
 INTO
     TemperatureAlertToEventHub
 FROM
     BeakerSensors
 WHERE
-    MTemperature > 25
+    MTemperature > 30
     and tipo = 'BeakerA'
 
 SELECT
@@ -41,7 +43,7 @@ SELECT
     llama,
     System.TimeStamp AS momento
 INTO
-    documentDBOutput
+    azureDocumentDBOutput
 FROM
     BeakerSensors
 WHERE

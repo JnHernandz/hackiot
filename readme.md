@@ -13,6 +13,8 @@ Nuestro proyecto se basa en la medición de parámetros obtenidos de una técnic
 
 Obtener datos mediante sensores físicos y simulados para su procesamiento en la nube de Microsoft Azure. Con base en esa información, crear elementos como: dashboard en tiempo real y bases de datos, para la toma de desiciones y tratamiento de información. También, implementar acciones con las herramientas de PaaS para valores fuera de rangos definidos como el envío de correos de notificación. Finalmente, configurar una aplicación web para establecer comunicación de tipo C2D, de esta forma ejecutar funciones propias del dispositivo como abrir compuertas lógicas.
 
+![Página de Negocio](/assets/pagina.png "Página de Negocio")
+
 ### Arquitectura de la solución
 
 ![Diagrama de la Solución](/assets/resume.png "Diagrama de la Solución")

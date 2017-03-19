@@ -52,9 +52,10 @@ public class SendSerializedEvent {
         public void run(){
 
             try{
+                ComportamientoMechero comportamiento = new ComportamientoMechero();
                 while (true){
                     Mechero mechero = new Mechero();
-                    mechero.cambiarLlama(valorAleatorio());
+                    mechero.cambiarLlama(comportamiento.siguieteValor());
 
                     String msgStr = mechero.serialize();
 
@@ -69,7 +70,7 @@ public class SendSerializedEvent {
                         lockobj.wait();
                     }
 
-                    sleep(30000);
+                    sleep(40000);
                 }
             }
             catch (InterruptedException e){
@@ -115,6 +116,6 @@ public class SendSerializedEvent {
     }
 
     private static double valorAleatorio() {
-        return ThreadLocalRandom.current().nextDouble(0, 100);
+        return ThreadLocalRandom.current().nextDouble(3, 26);
     }
 }

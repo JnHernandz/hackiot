@@ -1,0 +1,6 @@
+ConnectionString=Endpoint=sb://beakeraeventhub.servicebus.windows.net/;SharedAccessKeyName=readWrite;SharedAccessKey=Attm6RoG1aKlY42O80gSKcSppCd8/s0agTEqfrtek74=;EntityPath=iotbeakeraeventhub
+eventHubCompatibleName=iothub-ehub-fgiothubte-126244-cfe4ceb722
+eventHubCompatibleEndpoint=sb://ihsuprodbyres031dednamespace.servicebus.windows.net/
+iotHubCompatibleNamespace=ihsuprodbyres031dednamespace
+
+beakerStorage=DefaultEndpointsProtocol=https;AccountName=beakerastorage;AccountKey=JHrjfmAgKC2bRrejutqOxHYdvlK+iShnkdXpoDltXsoidKojBs+5zA1HxT2M7J0EPssJ50niDMzaJl7WzhlO1A==

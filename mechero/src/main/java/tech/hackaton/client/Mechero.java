@@ -8,8 +8,10 @@ import com.google.gson.Gson;
 public class Mechero {
     public boolean encendido;
     public double llama;
+    public String tipo;
 
     public Mechero(){
+        this.tipo = "Mechero";
         this.encendido = false;
         this.llama = 0;
     }
@@ -34,6 +36,8 @@ public class Mechero {
 
     public String serialize() {
         Gson gson = new Gson();
-        return gson.toJson(this);
+        String json = gson.toJson(this);
+        System.out.println(json);
+        return json;
     }
 }

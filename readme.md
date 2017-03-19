@@ -21,6 +21,8 @@ El simulador de Java es un programa que incluye las librerias `com.microsoft.azu
 
 El código incluye la configuración del Adafruit Huzzah que transmite datos a la nube de Microsoft Azure.
 
+![Circuito en Protoboard](/assets/proto.png "Circuito en Protoboard")
+
 #### IoT Hub
 
 Es la puerta de entrada de información proveniente de los dispositivos (cosas).
@@ -112,7 +114,9 @@ Gracias al Event Hub podemos disparar eventos que son procesados en la aplicaci�
 
 #### Web App
 
-La aplicación web permite enviar mensajes al Huzzah y así controlar su comportamiento.
+La aplicación web permite enviar mensajes al Huzzah y así controlar su comportamiento. Usando el modelo C2D.
+
+![Aplicación Web](/assets/webpage.png "Aplicación Web")
 
 #### Logic App
 

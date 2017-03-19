@@ -1,0 +1,5 @@
+Webmail: http://syssarom.com/webmail
+Pop3/Smtp: mail.syssarom.com
+Autenticación: Requerida
+Usuario: hackaton@syssarom.com
+Clave: Hack1234
